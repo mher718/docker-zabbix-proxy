@@ -1,11 +1,4 @@
-[![Docker Stars](https://img.shields.io/docker/stars/safelinkinternet/zabbix-proxy.svg)](https://hub.docker.com/r/safelinkinternet/zabbix-proxy/) [![Docker Pulls](https://img.shields.io/docker/pulls/safelinkinternet/zabbix-proxy.svg)](https://hub.docker.com/r/safelinkinternet/zabbix-proxy/)
-# Zabbix proxy on Ubuntu
-
-Total size of this image is:
-[![](https://badge.imagelayers.io/safelinkinternet/zabbix-proxy:latest.svg)](https://imagelayers.io/?images=safelinkinternet/zabbix-proxy:latest 'Get your own badge on imagelayers.io')
-
-
-## Running
+## How to use this image
 
 Use this command to start the container. Zabbix proxy will listen on port 10051.
 ```
@@ -14,8 +7,8 @@ docker run \
 	-d \
 	-p 10051:10051 \
 	safelinkinternet/zabbix-proxy \
-  -z <zabbix server ip> \
-  -s <proxy hostname>
+        -z <zabbix server fqdn or ip> \
+        -s <proxy hostname>
 ```
 ________________________________________
 
