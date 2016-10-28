@@ -7,8 +7,8 @@ docker run \
 	-d \
 	-p 10051:10051 \
 	safelinkinternet/zabbix-proxy \
-        -z <zabbix server fqdn or ip> \
-        -s <proxy hostname>
+-z <zabbix server fqdn or ip> \
+-s <proxy hostname>
 ```
 ________________________________________
 
