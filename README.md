@@ -6,7 +6,7 @@ docker run \
 	--name zabbix-proxy \
 	-d \
 	-p 10051:10051 \
-	mher718/zabbix-proxy \
+	mher718/docker-zabbix-proxy \
 -z <zabbix server fqdn or ip> \
 -s <proxy hostname>
 ```
